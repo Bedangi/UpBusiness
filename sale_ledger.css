@@ -1,0 +1,78 @@
+.btn_card
+{
+    background-color: #604f97c1;
+    border: none;
+    padding: 10px;
+    font-size: 30px;
+    border-radius: 10px;
+    border: 15px;
+    border-color: black;
+    text-decoration: none;
+    color: white;
+    font-weight: 20;
+    padding: 25px 70px;
+}
+.btn{
+    position: relative;
+    left: 20%;
+    top: 20%;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.sales-grid-container{
+    width: 100%;
+    display: grid;
+    grid-template-areas:
+    "sn"
+    "si"
+    "sb";
+}
+.sales-navbar{
+    grid-area: sn;
+    display: grid;
+    grid-template-areas:"l l l l l h";
+    padding: 20px;
+    font-size: 30px;
+    color: #604f97;
+}
+.sales-invoice{
+    grid-area: si;
+    display: grid;
+    grid-template-areas:"il il il ir";
+    padding: 20px;
+}
+.sales-billing{
+    grid-area: sb;
+    display: grid;
+    grid-template-areas:"bl bl bl br";
+    padding: 20px;
+}
+.logo{
+    grid-area: l;
+}
+.home{
+    grid-area: h;
+}
+.invoice-left{
+    grid-area: il;
+    font-size: 50px;
+    color: #604f97;
+}
+.invoice-right{
+    grid-area: ir;
+    background-image: url("icons/invoice.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 550px;
+    margin-left: 200px;
+}
+.billing-left{
+    grid-area: bl;
+}
+.billing-right{
+    grid-area: br;
+    font-size: 25px;
+}
