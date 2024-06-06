@@ -49,6 +49,8 @@ a{
     display: grid;
     grid-template-areas:"bl bl bl br";
     padding: 20px;
+    padding: 5% 0px;
+    margin-left: 2%;
 }
 .logo{
     grid-area: l;
@@ -123,5 +125,6 @@ ol li{
         grid-template-areas:
         "l"
         "h";
+        width: 100%;
     }
 }
