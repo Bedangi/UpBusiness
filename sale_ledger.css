@@ -12,7 +12,7 @@
     font-weight: 20;
     padding: 25px 70px;
 }
-.btn{
+.btn_invoice{
     position: relative;
     left: 20%;
     top: 20%;
@@ -36,6 +36,7 @@ a{
     padding: 20px;
     font-size: 30px;
     color: #604f97;
+    background-color: #f6fbff;
 }
 .sales-invoice{
     grid-area: si;
@@ -71,8 +72,56 @@ a{
 }
 .billing-left{
     grid-area: bl;
+    background-color: #9d90ec;
+    padding-top: 20px;
 }
 .billing-right{
     grid-area: br;
     font-size: 25px;
+    background-color: #f8f7f5;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+ol li{
+    color: black;
+    font-weight: 10;
+    background-color: white;
+    border: solid ;
+    border-width: 10px;
+}
+.add-more{
+    position: relative;
+    left: 0%;
+}
+.total{
+    background-color: #9d90ec;
+    margin: 50px 30px 50px 0px;
+}
+@media (max-width: 576px) {
+    .sales-grid-container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+@media (max-width: 1000px) {
+    .invoice-right{
+        display: none;
+    }
+}
+@media (max-width: 1180px) {
+    .btn_invoice{
+        top: 5%;
+    }
+}
+@media (max-width: 1300px) {
+    .sales-billing{
+        grid-template-areas:
+        "bl"
+        "br";
+    }
+    .sales-navbar{
+        grid-template-areas:
+        "l"
+        "h";
+    }
 }
