@@ -60,8 +60,11 @@ a{
 }
 .invoice-left{
     grid-area: il;
-    font-size: 50px;
+    font-size: 40px;
     color: #604f97;
+}
+#welcome{
+    font-size: 50px;
 }
 .invoice-right{
     grid-area: ir;
@@ -96,8 +99,10 @@ ol li{
     left: 0%;
 }
 .total{
-    background-color: #9d90ec;
+    background-color: #c0b9ec;
     margin: 50px 30px 50px 0px;
+    border-radius: 20px;
+    border-color: black;
 }
 @media (max-width: 576px) {
     .sales-grid-container{
