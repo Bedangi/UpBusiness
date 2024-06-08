@@ -105,20 +105,3 @@ body{
         left: 30%;
     }
 }
-@media (max-width:410px){
-    .service_statement{
-        margin-top: 100px;
-    }
-}
-@media (max-width:820px){
-    .container-fluid{
-        display: flex;
-        flex-direction: column;
-    }
-    .hide{
-        display: none;
-    }
-    .navbar-nav{
-        margin-left: 45%;
-    }
-}
