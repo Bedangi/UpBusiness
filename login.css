@@ -2,6 +2,27 @@
     display: flex;
     flex-wrap: wrap;
 }
+*{
+    padding: 2px;
+    border-color: black;
+    border-radius: 10px;
+}
+input:hover{
+    color:black;
+    background-color: white;
+    border-color: #604f97;
+    border-radius: 10px;
+}
+.btn_card:hover{
+    font-weight: bolder;
+    color: #604f97;
+    background-color: aliceblue;
+    border-color: black;
+}
+.login:hover{
+  background-color: #604f97;
+  color:white;
+}
 .right{
     background-image: url("icons/loginbg.png");
     background-repeat: no-repeat;
